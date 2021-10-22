@@ -17,15 +17,6 @@ The detailed document [https://docs.kucoin.com](https://docs.kucoin.com).
 </dependency>
 ```
 
-```java
-Intellij 로 jar 파일로 빌드 후, gradle 프로젝트에 external lib 로 import 하여 사용함
-하지만, gradle project 에서 maven 에서 사용한 class 를 제대로 찾지 못하여, gradle build 에 아래와깉이 추가해줌.
-
-// https://mvnrepository.com/artifact/com.gruelbox/kucoin-java-sdk
-implementation 'com.gruelbox:kucoin-java-sdk:1.0.0.5'
-
-그러니까 되긴 하는데... 왜 되지 확인좀...
-```
 ## Usage
 ### Build Client
 ```java
